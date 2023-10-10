@@ -1,0 +1,64 @@
+.linkedin-jobs-container {
+    margin: 30px;
+    font-family: Arial, sans-serif;
+    cursor: pointer;
+  }
+  
+  .linkedin-jobs-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .linkedin-logo {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  h1 {
+    font-size: 34px;
+    margin: 0;
+    text-decoration: underline;
+    
+  }
+  
+  .linkedin-job-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .linkedin-job-card {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: calc(33.33% - 20px); /* Adjust the width as needed */
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .job-logo img {
+    width: 80px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  .job-details {
+    flex-grow: 1;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin: 0;
+  }
+  
+  p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .job-description {
+    font-style: italic;
+  }
+  

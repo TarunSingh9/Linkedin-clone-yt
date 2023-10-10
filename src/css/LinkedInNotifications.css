@@ -1,0 +1,52 @@
+.linkedin-notifications-container {
+    margin: 40px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .linkedin-notifications-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linkedin-logo {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  h1 {
+    font-size: 34px;
+    margin: 0;
+  }
+  
+  .linkedin-notification-list {
+    margin-top: 10px;
+  }
+  
+  .linkedin-notification-card {
+        display: flex;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 15px;
+        margin-bottom: 10px;
+        background-color: #e3e8e7; /* Updated color here */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+      
+  }
+  
+  .notification-logo img {
+    width: 60px; /* Adjust the size as needed */
+    height: auto;
+  }
+  
+  .notification-details p {
+    font-size: 16px;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .notification-details strong {
+    font-weight: bold;
+  }
+  
