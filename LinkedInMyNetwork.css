@@ -1,0 +1,63 @@
+.linkedin-my-network-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .linkedin-my-network-header {
+    display: flex;
+    align-items: center;
+  }
+  
+  .linkedin-logo {
+    width: 200px; /* Adjust the size as needed */
+    height: auto;
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  h1 {
+    font-size: 34px;
+    margin: 0;
+    text-decoration: underline;
+  }
+  
+  .linkedin-connections-list {
+    margin-top: 20px;
+    cursor: pointer;
+    
+  }
+  
+  .linkedin-connection-card {
+    margin: flex;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .connection-profile-image {
+    width: 120px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 0%;
+    margin-right: 20px; /* Adjust spacing */
+  }
+  
+  .connection-details {
+    flex-grow: 1;
+  }
+  
+  .connection-name {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .connection-job,
+  .connection-education,
+  .connection-experience,
+  .connection-company {
+    font-size: 16px;
+    margin: 5px 0;
+  }
+  
